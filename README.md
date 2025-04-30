@@ -161,11 +161,18 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 <br>
 <br>
 
+#.Net DLL/WSDL Importer for Delphi
+The [.Net DLL/WSDL Importer for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibUtilities) is used for importing .Net Assemblies such as dll or exe files, WSDL or web service XML schema and for generating Delphi classes from the .Net types of the imported assemblies.
 
+<img src="images/animations/DotNetImporterAnimation.gif" alt="dotNetImporter" style="display: block; margin: auto; width: 50%;">
+
+
+<br>
+<br>
 # Learn more
 
-See [.Net Runtime Library for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibrary4Delphi) for detailed information about how to integrate .Net Framework classes into Delphi.
-See [.Net DLL/WSDL Importer for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibUtilities) for detailed information about how to import .Net third part DLLs or WSDLs and integrate .Net Framework classes into Delphi.
+See [.Net Runtime Library for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibrary4Delphi) for detailed information about how to integrate .Net Framework classes into Delphi. <br>
+See [.Net DLL/WSDL Importer for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibUtilities) for detailed information about how to import .Net third part DLLs or WSDLs and integrate .Net Framework classes into Delphi.<br>
 
 # API reference
 
