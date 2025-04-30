@@ -31,7 +31,7 @@ In this GitHub repo, we provide samples which will help Delphi developers integr
 
 The .Net Runtime Library for Delphi samples are listed below:<br><br>
 
-> How to Load .Net Application Domains and Assemblies from Delphi
+> How to Load .Net Application Domains and Assemblies in Delphi
 * <a href="samples/getting-started/">Load .Net Assemblies</a>
 * <a href="samples/getting-started/">Create .Net Instance</a>
 * <a href="samples/getting-started/">Use COM DispInterface</a>
@@ -50,57 +50,57 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 * <a href="samples/getting-started/">.Net Tracing</a>
 <br>
 
-> .Net Collections in Delphi
+> How to use .Net Collections in Delphi
 * <a href="samples/getting-started/">Generic Dictionary</a>
 * <a href="samples/getting-started/">Generic List</a>
 * <a href="samples/getting-started/">Other Examples</a>
 <br>
 
-> .Net Configurations in Delphi
+> How to use .Net Configurations in Delphi
 * <a href="samples/getting-started/">Configuration</a>
 <br>
 
-> .Net Converter in Delphi
+> How to use .Net Type Converters in Delphi
 * <a href="samples/getting-started/">Byte Converter</a>
 * <a href="samples/getting-started/">CultureInfo Converter</a>
 <br>
 
-> Access .Net Data from Delphi
+> How to use .Net Data in Delphi
 * <a href="samples/getting-started/">DataTable</a>
 * <a href="samples/getting-started/">DataGridView</a>
 <br>
 
-> Access .Net Device Location from Delphi
+> How to use .Net Device Locations in Delphi
 * <a href="samples/getting-started/">Device Location</a>
 * <a href="samples/getting-started/">Resolve Address Synchronously</a>
 <br>
 
-> .Net Diagnostics in Delphi
+> How to use .Net Diagnostics in Delphi
 * <a href="samples/getting-started/">Diagnostics</a>
 <br>
 
-> Access .Net Active Directory Services from Delphi
+> How to use .Net Active Directory Services from Delphi
 * <a href="samples/getting-started/">DirectoryServices</a>
 <br>
 
-> Handle .Net Events and Delegates
+> How to Handle .Net Events and Delegates in Delphi
 * <a href="samples/getting-started/">Standard Event handling</a>
 * <a href="samples/getting-started/">Advanced Event handling</a>
 <br>
 
-> Host .Net Controls in Delphi
+> How to use Host .Net Controls in Delphi
 * <a href="samples/getting-started/">.Net DataGridView Control</a>
 * <a href="samples/getting-started/">.Net WPF Control</a>
 * <a href="samples/getting-started/">.Net Web Browser Control</a>
 <br>
 
-> Access .Net IO from Delphi
+> How to use .Net I/O in Delphi
 * <a href="samples/getting-started/">List files in Directory</a>
 * <a href="samples/getting-started/">.Net StreamWriter</a>
 * <a href="samples/getting-started/">.Net StreamReader</a>
 <br>
 
-> .Net Management in Delphi
+> How to use .Net Management in Delphi
 * <a href="samples/getting-started/">Event Watcher Polling</a>
 * <a href="samples/getting-started/">Using Management Path</a>
 <br>
@@ -111,7 +111,7 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 * <a href="samples/getting-started/">Using ClrObject Interface</a>
 <br>
    
-> Access .Net Security from Delphi
+> How to use .Net Security in Delphi
 * <a href="samples/getting-started/">Rijndael Security</a>
 * <a href="samples/getting-started/">Rijndael Managed</a>
 * <a href="samples/getting-started/">ECDsaCng</a>
@@ -123,7 +123,7 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 * <a href="samples/getting-started/">Compress/Decompress with .Net GZipStream</a>
 <br>
    
-> Networking
+> How to use .Net Networking in Delphi
 * <a href="samples/getting-started/">Upload File</a>
 * <a href="samples/getting-started/">Download File</a>
 * <a href="samples/getting-started/">Send E-mail Message</a>
@@ -134,11 +134,11 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 * <a href="samples/getting-started/">Delete FTP Server file</a>
 <br>
    
-> SSRS Reports
+> How to use .Net SSRS Reports in Delphi
 * <a href="samples/getting-started/">Run SSRS Reports Locally</a>
 <br>
    
-> System
+> How to Access System Info in Delphi
 * <a href="samples/getting-started/">Get file and directory attributes</a>
 * <a href="samples/getting-started/">Consume system events</a>
 * <a href="samples/getting-started/">Display Computer information</a>
@@ -146,14 +146,14 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 * <a href="samples/getting-started/">Receive Data From Serial Ports</a>
 <br>
    
-> Access Text Files from Delphi
+> How to Access Text Files in Delphi
 * <a href="samples/getting-started/">Read Comma-Delimited Text Files</a>
 * <a href="samples/getting-started/">Read Fixed-width Text Files</a>
 * <a href="samples/getting-started/">Read From Text Files</a>
 * <a href="samples/getting-started/">Read/Add/Update Application Settings</a>
 <br>
    
-> XML
+> How to Access XML Files in Delphi
 * <a href="samples/getting-started/">Compare two XML element names</a>
 
 
