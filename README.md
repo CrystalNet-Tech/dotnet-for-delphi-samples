@@ -164,7 +164,8 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 
 # Learn more
 
-See [.Net Runtime Library for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibrary4Delphi) for detailed information.
+See [.Net Runtime Library for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibrary4Delphi) for detailed information about how to integrate .Net Framework classes into Delphi.
+See [.Net DLL/WSDL Importer for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibUtilities) for detailed information about how to import .Net third part DLLs or WSDLs and integrate .Net Framework classes into Delphi.
 
 # API reference
 
