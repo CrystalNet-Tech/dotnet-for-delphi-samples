@@ -42,12 +42,12 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 > Basic Examples of using .Net types in Delphi
 * <a href="samples/getting-started/">Array</a>
 * <a href="samples/getting-started/">ArrayList</a>
-* <a href="samples/getting-started/">Basic Example</a>
 * <a href="samples/getting-started/">ClrObject Example</a>
 * <a href="samples/getting-started/">Console App</a>
 * <a href="samples/getting-started/">DateTimeInfo</a>
 * <a href="samples/getting-started/">StringBuilder</a>
 * <a href="samples/getting-started/">.Net Tracing</a>
+* <a href="samples/getting-started/">Other Examples</a>
 <br>
 
 > How to use .Net Collections in Delphi
