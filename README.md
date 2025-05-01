@@ -90,7 +90,7 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 
 > How to use Host .Net Controls in Delphi
 * <a href="samples/getting-started/Host_DotNet_Controls/DataGridView_Control">.Net DataGridView Control</a>
-* <a href="samples/getting-started/Host_DotNet_Controls/WPF_Control">.Net WPF Control</a>
+* <a href="samples/getting-started/Host_DotNet_Controls/WPF_Control/Delphi">.Net WPF Control</a>
 * <a href="samples/getting-started/Host_DotNet_Controls/Web_Browser_Control">.Net Web Browser Control</a>
 <br>
 
