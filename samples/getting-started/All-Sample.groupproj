@@ -1,0 +1,768 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{124C67D0-2D77-4ED5-A5D4-08B2E7D365A9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_Activator\CreateInstanceUsingActivator.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_Dispatch_Activator\CreateInstanceUsingDispActivator.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_AppDomain\CreateInstanceUsingAppDomain.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_TClrAssembly\LoadAssemblyUsingAssemblyClass.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_AssemblyHelper\LoadAssemblyUsingAssemblyHelper.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application_Domains_And_Assemblies\COM_DispInterface\COMDispInterface.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_AppDomain\LoadAssemblyUsingAppDomain.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application_Domains_And_Assemblies\Obtain_DotNet_Assembly_Types_And_Members\AssemblyInformation.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic_Examples\Console_App\ConsoleApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic_Examples\ClrObject_Example\UsingClrObject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic_Examples\CodeCOM\CreateCSharpClassWithCodeDOM.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic_Examples\StringBuilder\StringBuilder.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic_Examples\DateTimeInfo\DateTimeInfo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic_Examples\ArrayList\ArrayList.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic_Examples\Array\ArrayExample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic_Examples\Other_Examples\BasicExample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Collections\Generic_List\GenericList.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Collections\Generic_Dictionary\GenericDictionary.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Collections\Other_Examples\Collections.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Configurations\Configuration.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Converters\ByteConverter\ByteConverter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Converters\CultureInfoConverter\CultureInfoConverter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Data\DataTable\DataTable.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Devices\ResolveAddressSync\ResolveAddressSync.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Devices\DeviceLocation\DeviceLocation.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Diagnostics\Diagnostics.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Directory_Services\DirectoryServices.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Event_Handler\Standard\EventHandling.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Event_Handler\Advanced\AdvancedEventHandler.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Host_DotNet_Controls\DataGridView_Control\DataGridViewOnVCLForm.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Host_DotNet_Controls\WPF_Control\Delphi\HostWPFCtrlProject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Host_DotNet_Controls\Web_Browser_Control\WebBrowserProject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="IO\StreamWriter\StreamWriterReader.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="IO\ListFilesInDirectory\ListFilesInDir.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Management\ManagementPath\ManagementPath.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Management\EventWatcherPolling\EventWatcherPolling.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Networking\Create_DotNet_WebRequest\WebRequestGetExample\WebRequestGetExample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Networking\Create_DotNet_WebRequest\WebRequestGetExample2\WebRequestGetExample2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Networking\Delete_FTP_Server_File\DeleteFileOnFTPServer\DeleteFileOnFTPServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Networking\Send_Receive_Data_with_WebClient\WebClient\WebClient_Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Networking\Download_File_from_Network\DownloadFile\DownloadFile.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Networking\Access_Resource_with_FileWebRequest\TestGetRequestStream\TestGetRequestStream.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Networking\Send_Email_Message\SendEmail.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Networking\Upload_File_to_a_Network\UploadFile\UploadFile.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Networking\Check_Network_Connection_Status\CheckNetworkConnectionStatus\CheckNetworkConnectionStatus.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Reflections\Using_ClrObject_Class\ReflectionUsingClrObjectClass.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Reflections\Using_ClrObject_Interface\ReflectionUsingClrObjectInterface.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Reflections\Basic_Reflections\Reflection.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Security\File_Encryption_and_Decryption\FileEncryptionDecryption\FileEncryptionDecryption.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Security\Compute_String_MD5_Hash_Value\MD5CryptoServiceProvider\MD5CryptoServiceProvider.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Security\Computes_HMAC_with_MD5_Hash_Function\HMACMD5\HMACMD5_Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Security\Sign_Message_With_ECDsaCng\ECDsaCng\ECDsaCng_Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Security\Compress_Decompress_with_DotNet_GZipStream\GZipStream\GZipStream.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Security\Encrypt_Decrypt_Data_with_RijndaelManaged\RijndaelSecurity\RijndaelSecurity.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SSRS_Reports\How_To_Run_SSRS_Reports_Locally\SSRSLocalReport\SSRSLocalReport.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Systems\Send_Data_to_Serial_Ports\SendStringsToSerialPorts\SendStrings2SerialPorts.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Systems\Receive_Data_From_Serial_Ports\RetrieveStringsFromSerialPorts\RetrieveStringsFromSerialPorts.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Systems\Display_Computer_Information\GetComputerInformation\ComputerInfo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Systems\Get_File_and_Directory_Attributes\GetAttrFunction\GetAttrFunction.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Text_Files\Read_Comma_Delimited_Text_Files\ReadCommaDelimetedTextFiles\ReadCommDelimetedTextFiles.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Text_Files\Read_from_Text_Files_with_Multiple_Formats\ReadFromTextFileswithMultipleFormats\ReadTextFiles.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Text_Files\Read_Fixed_Width_Text_Files\ReadFixedWidthTextFiles\ReadFixedWidthTextFiles.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CreateInstanceUsingActivator">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_Activator\CreateInstanceUsingActivator.dproj"/>
+    </Target>
+    <Target Name="CreateInstanceUsingActivator:Clean">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_Activator\CreateInstanceUsingActivator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CreateInstanceUsingActivator:Make">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_Activator\CreateInstanceUsingActivator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CreateInstanceUsingDispActivator">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_Dispatch_Activator\CreateInstanceUsingDispActivator.dproj"/>
+    </Target>
+    <Target Name="CreateInstanceUsingDispActivator:Clean">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_Dispatch_Activator\CreateInstanceUsingDispActivator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CreateInstanceUsingDispActivator:Make">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_Dispatch_Activator\CreateInstanceUsingDispActivator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CreateInstanceUsingAppDomain">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_AppDomain\CreateInstanceUsingAppDomain.dproj"/>
+    </Target>
+    <Target Name="CreateInstanceUsingAppDomain:Clean">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_AppDomain\CreateInstanceUsingAppDomain.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CreateInstanceUsingAppDomain:Make">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Create_DotNet_Object_Instance\Using_AppDomain\CreateInstanceUsingAppDomain.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyClass">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_TClrAssembly\LoadAssemblyUsingAssemblyClass.dproj"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyClass:Clean">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_TClrAssembly\LoadAssemblyUsingAssemblyClass.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyClass:Make">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_TClrAssembly\LoadAssemblyUsingAssemblyClass.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyHelper">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_AssemblyHelper\LoadAssemblyUsingAssemblyHelper.dproj"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyHelper:Clean">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_AssemblyHelper\LoadAssemblyUsingAssemblyHelper.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyHelper:Make">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_AssemblyHelper\LoadAssemblyUsingAssemblyHelper.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="COMDispInterface">
+        <MSBuild Projects="Application_Domains_And_Assemblies\COM_DispInterface\COMDispInterface.dproj"/>
+    </Target>
+    <Target Name="COMDispInterface:Clean">
+        <MSBuild Projects="Application_Domains_And_Assemblies\COM_DispInterface\COMDispInterface.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="COMDispInterface:Make">
+        <MSBuild Projects="Application_Domains_And_Assemblies\COM_DispInterface\COMDispInterface.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAppDomain">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_AppDomain\LoadAssemblyUsingAppDomain.dproj"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAppDomain:Clean">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_AppDomain\LoadAssemblyUsingAppDomain.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAppDomain:Make">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Load_DotNet_Assemblies\Using_AppDomain\LoadAssemblyUsingAppDomain.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AssemblyInformation">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Obtain_DotNet_Assembly_Types_And_Members\AssemblyInformation.dproj"/>
+    </Target>
+    <Target Name="AssemblyInformation:Clean">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Obtain_DotNet_Assembly_Types_And_Members\AssemblyInformation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AssemblyInformation:Make">
+        <MSBuild Projects="Application_Domains_And_Assemblies\Obtain_DotNet_Assembly_Types_And_Members\AssemblyInformation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ConsoleApp">
+        <MSBuild Projects="Basic_Examples\Console_App\ConsoleApp.dproj"/>
+    </Target>
+    <Target Name="ConsoleApp:Clean">
+        <MSBuild Projects="Basic_Examples\Console_App\ConsoleApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ConsoleApp:Make">
+        <MSBuild Projects="Basic_Examples\Console_App\ConsoleApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UsingClrObject">
+        <MSBuild Projects="Basic_Examples\ClrObject_Example\UsingClrObject.dproj"/>
+    </Target>
+    <Target Name="UsingClrObject:Clean">
+        <MSBuild Projects="Basic_Examples\ClrObject_Example\UsingClrObject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UsingClrObject:Make">
+        <MSBuild Projects="Basic_Examples\ClrObject_Example\UsingClrObject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CreateCSharpClassWithCodeDOM">
+        <MSBuild Projects="Basic_Examples\CodeCOM\CreateCSharpClassWithCodeDOM.dproj"/>
+    </Target>
+    <Target Name="CreateCSharpClassWithCodeDOM:Clean">
+        <MSBuild Projects="Basic_Examples\CodeCOM\CreateCSharpClassWithCodeDOM.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CreateCSharpClassWithCodeDOM:Make">
+        <MSBuild Projects="Basic_Examples\CodeCOM\CreateCSharpClassWithCodeDOM.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StringBuilder">
+        <MSBuild Projects="Basic_Examples\StringBuilder\StringBuilder.dproj"/>
+    </Target>
+    <Target Name="StringBuilder:Clean">
+        <MSBuild Projects="Basic_Examples\StringBuilder\StringBuilder.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StringBuilder:Make">
+        <MSBuild Projects="Basic_Examples\StringBuilder\StringBuilder.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DateTimeInfo">
+        <MSBuild Projects="Basic_Examples\DateTimeInfo\DateTimeInfo.dproj"/>
+    </Target>
+    <Target Name="DateTimeInfo:Clean">
+        <MSBuild Projects="Basic_Examples\DateTimeInfo\DateTimeInfo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DateTimeInfo:Make">
+        <MSBuild Projects="Basic_Examples\DateTimeInfo\DateTimeInfo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ArrayList">
+        <MSBuild Projects="Basic_Examples\ArrayList\ArrayList.dproj"/>
+    </Target>
+    <Target Name="ArrayList:Clean">
+        <MSBuild Projects="Basic_Examples\ArrayList\ArrayList.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ArrayList:Make">
+        <MSBuild Projects="Basic_Examples\ArrayList\ArrayList.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ArrayExample">
+        <MSBuild Projects="Basic_Examples\Array\ArrayExample.dproj"/>
+    </Target>
+    <Target Name="ArrayExample:Clean">
+        <MSBuild Projects="Basic_Examples\Array\ArrayExample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ArrayExample:Make">
+        <MSBuild Projects="Basic_Examples\Array\ArrayExample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicExample">
+        <MSBuild Projects="Basic_Examples\Other_Examples\BasicExample.dproj"/>
+    </Target>
+    <Target Name="BasicExample:Clean">
+        <MSBuild Projects="Basic_Examples\Other_Examples\BasicExample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicExample:Make">
+        <MSBuild Projects="Basic_Examples\Other_Examples\BasicExample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GenericList">
+        <MSBuild Projects="Collections\Generic_List\GenericList.dproj"/>
+    </Target>
+    <Target Name="GenericList:Clean">
+        <MSBuild Projects="Collections\Generic_List\GenericList.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GenericList:Make">
+        <MSBuild Projects="Collections\Generic_List\GenericList.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GenericDictionary">
+        <MSBuild Projects="Collections\Generic_Dictionary\GenericDictionary.dproj"/>
+    </Target>
+    <Target Name="GenericDictionary:Clean">
+        <MSBuild Projects="Collections\Generic_Dictionary\GenericDictionary.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GenericDictionary:Make">
+        <MSBuild Projects="Collections\Generic_Dictionary\GenericDictionary.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Collections">
+        <MSBuild Projects="Collections\Other_Examples\Collections.dproj"/>
+    </Target>
+    <Target Name="Collections:Clean">
+        <MSBuild Projects="Collections\Other_Examples\Collections.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Collections:Make">
+        <MSBuild Projects="Collections\Other_Examples\Collections.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Configuration">
+        <MSBuild Projects="Configurations\Configuration.dproj"/>
+    </Target>
+    <Target Name="Configuration:Clean">
+        <MSBuild Projects="Configurations\Configuration.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Configuration:Make">
+        <MSBuild Projects="Configurations\Configuration.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ByteConverter">
+        <MSBuild Projects="Converters\ByteConverter\ByteConverter.dproj"/>
+    </Target>
+    <Target Name="ByteConverter:Clean">
+        <MSBuild Projects="Converters\ByteConverter\ByteConverter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ByteConverter:Make">
+        <MSBuild Projects="Converters\ByteConverter\ByteConverter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CultureInfoConverter">
+        <MSBuild Projects="Converters\CultureInfoConverter\CultureInfoConverter.dproj"/>
+    </Target>
+    <Target Name="CultureInfoConverter:Clean">
+        <MSBuild Projects="Converters\CultureInfoConverter\CultureInfoConverter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CultureInfoConverter:Make">
+        <MSBuild Projects="Converters\CultureInfoConverter\CultureInfoConverter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataTable">
+        <MSBuild Projects="Data\DataTable\DataTable.dproj"/>
+    </Target>
+    <Target Name="DataTable:Clean">
+        <MSBuild Projects="Data\DataTable\DataTable.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataTable:Make">
+        <MSBuild Projects="Data\DataTable\DataTable.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ResolveAddressSync">
+        <MSBuild Projects="Devices\ResolveAddressSync\ResolveAddressSync.dproj"/>
+    </Target>
+    <Target Name="ResolveAddressSync:Clean">
+        <MSBuild Projects="Devices\ResolveAddressSync\ResolveAddressSync.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ResolveAddressSync:Make">
+        <MSBuild Projects="Devices\ResolveAddressSync\ResolveAddressSync.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DeviceLocation">
+        <MSBuild Projects="Devices\DeviceLocation\DeviceLocation.dproj"/>
+    </Target>
+    <Target Name="DeviceLocation:Clean">
+        <MSBuild Projects="Devices\DeviceLocation\DeviceLocation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DeviceLocation:Make">
+        <MSBuild Projects="Devices\DeviceLocation\DeviceLocation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Diagnostics">
+        <MSBuild Projects="Diagnostics\Diagnostics.dproj"/>
+    </Target>
+    <Target Name="Diagnostics:Clean">
+        <MSBuild Projects="Diagnostics\Diagnostics.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Diagnostics:Make">
+        <MSBuild Projects="Diagnostics\Diagnostics.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DirectoryServices">
+        <MSBuild Projects="Directory_Services\DirectoryServices.dproj"/>
+    </Target>
+    <Target Name="DirectoryServices:Clean">
+        <MSBuild Projects="Directory_Services\DirectoryServices.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DirectoryServices:Make">
+        <MSBuild Projects="Directory_Services\DirectoryServices.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EventHandling">
+        <MSBuild Projects="Event_Handler\Standard\EventHandling.dproj"/>
+    </Target>
+    <Target Name="EventHandling:Clean">
+        <MSBuild Projects="Event_Handler\Standard\EventHandling.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EventHandling:Make">
+        <MSBuild Projects="Event_Handler\Standard\EventHandling.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AdvancedEventHandler">
+        <MSBuild Projects="Event_Handler\Advanced\AdvancedEventHandler.dproj"/>
+    </Target>
+    <Target Name="AdvancedEventHandler:Clean">
+        <MSBuild Projects="Event_Handler\Advanced\AdvancedEventHandler.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AdvancedEventHandler:Make">
+        <MSBuild Projects="Event_Handler\Advanced\AdvancedEventHandler.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataGridViewOnVCLForm">
+        <MSBuild Projects="Host_DotNet_Controls\DataGridView_Control\DataGridViewOnVCLForm.dproj"/>
+    </Target>
+    <Target Name="DataGridViewOnVCLForm:Clean">
+        <MSBuild Projects="Host_DotNet_Controls\DataGridView_Control\DataGridViewOnVCLForm.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataGridViewOnVCLForm:Make">
+        <MSBuild Projects="Host_DotNet_Controls\DataGridView_Control\DataGridViewOnVCLForm.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HostWPFCtrlProject">
+        <MSBuild Projects="Host_DotNet_Controls\WPF_Control\Delphi\HostWPFCtrlProject.dproj"/>
+    </Target>
+    <Target Name="HostWPFCtrlProject:Clean">
+        <MSBuild Projects="Host_DotNet_Controls\WPF_Control\Delphi\HostWPFCtrlProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HostWPFCtrlProject:Make">
+        <MSBuild Projects="Host_DotNet_Controls\WPF_Control\Delphi\HostWPFCtrlProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebBrowserProject">
+        <MSBuild Projects="Host_DotNet_Controls\Web_Browser_Control\WebBrowserProject.dproj"/>
+    </Target>
+    <Target Name="WebBrowserProject:Clean">
+        <MSBuild Projects="Host_DotNet_Controls\Web_Browser_Control\WebBrowserProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebBrowserProject:Make">
+        <MSBuild Projects="Host_DotNet_Controls\Web_Browser_Control\WebBrowserProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StreamWriterReader">
+        <MSBuild Projects="IO\StreamWriter\StreamWriterReader.dproj"/>
+    </Target>
+    <Target Name="StreamWriterReader:Clean">
+        <MSBuild Projects="IO\StreamWriter\StreamWriterReader.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StreamWriterReader:Make">
+        <MSBuild Projects="IO\StreamWriter\StreamWriterReader.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ListFilesInDir">
+        <MSBuild Projects="IO\ListFilesInDirectory\ListFilesInDir.dproj"/>
+    </Target>
+    <Target Name="ListFilesInDir:Clean">
+        <MSBuild Projects="IO\ListFilesInDirectory\ListFilesInDir.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ListFilesInDir:Make">
+        <MSBuild Projects="IO\ListFilesInDirectory\ListFilesInDir.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ManagementPath">
+        <MSBuild Projects="Management\ManagementPath\ManagementPath.dproj"/>
+    </Target>
+    <Target Name="ManagementPath:Clean">
+        <MSBuild Projects="Management\ManagementPath\ManagementPath.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ManagementPath:Make">
+        <MSBuild Projects="Management\ManagementPath\ManagementPath.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EventWatcherPolling">
+        <MSBuild Projects="Management\EventWatcherPolling\EventWatcherPolling.dproj"/>
+    </Target>
+    <Target Name="EventWatcherPolling:Clean">
+        <MSBuild Projects="Management\EventWatcherPolling\EventWatcherPolling.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EventWatcherPolling:Make">
+        <MSBuild Projects="Management\EventWatcherPolling\EventWatcherPolling.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebRequestGetExample">
+        <MSBuild Projects="Networking\Create_DotNet_WebRequest\WebRequestGetExample\WebRequestGetExample.dproj"/>
+    </Target>
+    <Target Name="WebRequestGetExample:Clean">
+        <MSBuild Projects="Networking\Create_DotNet_WebRequest\WebRequestGetExample\WebRequestGetExample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebRequestGetExample:Make">
+        <MSBuild Projects="Networking\Create_DotNet_WebRequest\WebRequestGetExample\WebRequestGetExample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebRequestGetExample2">
+        <MSBuild Projects="Networking\Create_DotNet_WebRequest\WebRequestGetExample2\WebRequestGetExample2.dproj"/>
+    </Target>
+    <Target Name="WebRequestGetExample2:Clean">
+        <MSBuild Projects="Networking\Create_DotNet_WebRequest\WebRequestGetExample2\WebRequestGetExample2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebRequestGetExample2:Make">
+        <MSBuild Projects="Networking\Create_DotNet_WebRequest\WebRequestGetExample2\WebRequestGetExample2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DeleteFileOnFTPServer">
+        <MSBuild Projects="Networking\Delete_FTP_Server_File\DeleteFileOnFTPServer\DeleteFileOnFTPServer.dproj"/>
+    </Target>
+    <Target Name="DeleteFileOnFTPServer:Clean">
+        <MSBuild Projects="Networking\Delete_FTP_Server_File\DeleteFileOnFTPServer\DeleteFileOnFTPServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DeleteFileOnFTPServer:Make">
+        <MSBuild Projects="Networking\Delete_FTP_Server_File\DeleteFileOnFTPServer\DeleteFileOnFTPServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebClient_Example">
+        <MSBuild Projects="Networking\Send_Receive_Data_with_WebClient\WebClient\WebClient_Example.dproj"/>
+    </Target>
+    <Target Name="WebClient_Example:Clean">
+        <MSBuild Projects="Networking\Send_Receive_Data_with_WebClient\WebClient\WebClient_Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebClient_Example:Make">
+        <MSBuild Projects="Networking\Send_Receive_Data_with_WebClient\WebClient\WebClient_Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DownloadFile">
+        <MSBuild Projects="Networking\Download_File_from_Network\DownloadFile\DownloadFile.dproj"/>
+    </Target>
+    <Target Name="DownloadFile:Clean">
+        <MSBuild Projects="Networking\Download_File_from_Network\DownloadFile\DownloadFile.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DownloadFile:Make">
+        <MSBuild Projects="Networking\Download_File_from_Network\DownloadFile\DownloadFile.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestGetRequestStream">
+        <MSBuild Projects="Networking\Access_Resource_with_FileWebRequest\TestGetRequestStream\TestGetRequestStream.dproj"/>
+    </Target>
+    <Target Name="TestGetRequestStream:Clean">
+        <MSBuild Projects="Networking\Access_Resource_with_FileWebRequest\TestGetRequestStream\TestGetRequestStream.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestGetRequestStream:Make">
+        <MSBuild Projects="Networking\Access_Resource_with_FileWebRequest\TestGetRequestStream\TestGetRequestStream.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SendEmail">
+        <MSBuild Projects="Networking\Send_Email_Message\SendEmail.dproj"/>
+    </Target>
+    <Target Name="SendEmail:Clean">
+        <MSBuild Projects="Networking\Send_Email_Message\SendEmail.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SendEmail:Make">
+        <MSBuild Projects="Networking\Send_Email_Message\SendEmail.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UploadFile">
+        <MSBuild Projects="Networking\Upload_File_to_a_Network\UploadFile\UploadFile.dproj"/>
+    </Target>
+    <Target Name="UploadFile:Clean">
+        <MSBuild Projects="Networking\Upload_File_to_a_Network\UploadFile\UploadFile.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UploadFile:Make">
+        <MSBuild Projects="Networking\Upload_File_to_a_Network\UploadFile\UploadFile.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CheckNetworkConnectionStatus">
+        <MSBuild Projects="Networking\Check_Network_Connection_Status\CheckNetworkConnectionStatus\CheckNetworkConnectionStatus.dproj"/>
+    </Target>
+    <Target Name="CheckNetworkConnectionStatus:Clean">
+        <MSBuild Projects="Networking\Check_Network_Connection_Status\CheckNetworkConnectionStatus\CheckNetworkConnectionStatus.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CheckNetworkConnectionStatus:Make">
+        <MSBuild Projects="Networking\Check_Network_Connection_Status\CheckNetworkConnectionStatus\CheckNetworkConnectionStatus.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectClass">
+        <MSBuild Projects="Reflections\Using_ClrObject_Class\ReflectionUsingClrObjectClass.dproj"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectClass:Clean">
+        <MSBuild Projects="Reflections\Using_ClrObject_Class\ReflectionUsingClrObjectClass.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectClass:Make">
+        <MSBuild Projects="Reflections\Using_ClrObject_Class\ReflectionUsingClrObjectClass.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectInterface">
+        <MSBuild Projects="Reflections\Using_ClrObject_Interface\ReflectionUsingClrObjectInterface.dproj"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectInterface:Clean">
+        <MSBuild Projects="Reflections\Using_ClrObject_Interface\ReflectionUsingClrObjectInterface.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectInterface:Make">
+        <MSBuild Projects="Reflections\Using_ClrObject_Interface\ReflectionUsingClrObjectInterface.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Reflection">
+        <MSBuild Projects="Reflections\Basic_Reflections\Reflection.dproj"/>
+    </Target>
+    <Target Name="Reflection:Clean">
+        <MSBuild Projects="Reflections\Basic_Reflections\Reflection.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Reflection:Make">
+        <MSBuild Projects="Reflections\Basic_Reflections\Reflection.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FileEncryptionDecryption">
+        <MSBuild Projects="Security\File_Encryption_and_Decryption\FileEncryptionDecryption\FileEncryptionDecryption.dproj"/>
+    </Target>
+    <Target Name="FileEncryptionDecryption:Clean">
+        <MSBuild Projects="Security\File_Encryption_and_Decryption\FileEncryptionDecryption\FileEncryptionDecryption.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FileEncryptionDecryption:Make">
+        <MSBuild Projects="Security\File_Encryption_and_Decryption\FileEncryptionDecryption\FileEncryptionDecryption.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MD5CryptoServiceProvider">
+        <MSBuild Projects="Security\Compute_String_MD5_Hash_Value\MD5CryptoServiceProvider\MD5CryptoServiceProvider.dproj"/>
+    </Target>
+    <Target Name="MD5CryptoServiceProvider:Clean">
+        <MSBuild Projects="Security\Compute_String_MD5_Hash_Value\MD5CryptoServiceProvider\MD5CryptoServiceProvider.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MD5CryptoServiceProvider:Make">
+        <MSBuild Projects="Security\Compute_String_MD5_Hash_Value\MD5CryptoServiceProvider\MD5CryptoServiceProvider.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HMACMD5_Example">
+        <MSBuild Projects="Security\Computes_HMAC_with_MD5_Hash_Function\HMACMD5\HMACMD5_Example.dproj"/>
+    </Target>
+    <Target Name="HMACMD5_Example:Clean">
+        <MSBuild Projects="Security\Computes_HMAC_with_MD5_Hash_Function\HMACMD5\HMACMD5_Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HMACMD5_Example:Make">
+        <MSBuild Projects="Security\Computes_HMAC_with_MD5_Hash_Function\HMACMD5\HMACMD5_Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ECDsaCng_Example">
+        <MSBuild Projects="Security\Sign_Message_With_ECDsaCng\ECDsaCng\ECDsaCng_Example.dproj"/>
+    </Target>
+    <Target Name="ECDsaCng_Example:Clean">
+        <MSBuild Projects="Security\Sign_Message_With_ECDsaCng\ECDsaCng\ECDsaCng_Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ECDsaCng_Example:Make">
+        <MSBuild Projects="Security\Sign_Message_With_ECDsaCng\ECDsaCng\ECDsaCng_Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GZipStream">
+        <MSBuild Projects="Security\Compress_Decompress_with_DotNet_GZipStream\GZipStream\GZipStream.dproj"/>
+    </Target>
+    <Target Name="GZipStream:Clean">
+        <MSBuild Projects="Security\Compress_Decompress_with_DotNet_GZipStream\GZipStream\GZipStream.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GZipStream:Make">
+        <MSBuild Projects="Security\Compress_Decompress_with_DotNet_GZipStream\GZipStream\GZipStream.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RijndaelSecurity">
+        <MSBuild Projects="Security\Encrypt_Decrypt_Data_with_RijndaelManaged\RijndaelSecurity\RijndaelSecurity.dproj"/>
+    </Target>
+    <Target Name="RijndaelSecurity:Clean">
+        <MSBuild Projects="Security\Encrypt_Decrypt_Data_with_RijndaelManaged\RijndaelSecurity\RijndaelSecurity.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RijndaelSecurity:Make">
+        <MSBuild Projects="Security\Encrypt_Decrypt_Data_with_RijndaelManaged\RijndaelSecurity\RijndaelSecurity.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SSRSLocalReport">
+        <MSBuild Projects="SSRS_Reports\How_To_Run_SSRS_Reports_Locally\SSRSLocalReport\SSRSLocalReport.dproj"/>
+    </Target>
+    <Target Name="SSRSLocalReport:Clean">
+        <MSBuild Projects="SSRS_Reports\How_To_Run_SSRS_Reports_Locally\SSRSLocalReport\SSRSLocalReport.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SSRSLocalReport:Make">
+        <MSBuild Projects="SSRS_Reports\How_To_Run_SSRS_Reports_Locally\SSRSLocalReport\SSRSLocalReport.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SendStrings2SerialPorts">
+        <MSBuild Projects="Systems\Send_Data_to_Serial_Ports\SendStringsToSerialPorts\SendStrings2SerialPorts.dproj"/>
+    </Target>
+    <Target Name="SendStrings2SerialPorts:Clean">
+        <MSBuild Projects="Systems\Send_Data_to_Serial_Ports\SendStringsToSerialPorts\SendStrings2SerialPorts.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SendStrings2SerialPorts:Make">
+        <MSBuild Projects="Systems\Send_Data_to_Serial_Ports\SendStringsToSerialPorts\SendStrings2SerialPorts.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RetrieveStringsFromSerialPorts">
+        <MSBuild Projects="Systems\Receive_Data_From_Serial_Ports\RetrieveStringsFromSerialPorts\RetrieveStringsFromSerialPorts.dproj"/>
+    </Target>
+    <Target Name="RetrieveStringsFromSerialPorts:Clean">
+        <MSBuild Projects="Systems\Receive_Data_From_Serial_Ports\RetrieveStringsFromSerialPorts\RetrieveStringsFromSerialPorts.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RetrieveStringsFromSerialPorts:Make">
+        <MSBuild Projects="Systems\Receive_Data_From_Serial_Ports\RetrieveStringsFromSerialPorts\RetrieveStringsFromSerialPorts.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ComputerInfo">
+        <MSBuild Projects="Systems\Display_Computer_Information\GetComputerInformation\ComputerInfo.dproj"/>
+    </Target>
+    <Target Name="ComputerInfo:Clean">
+        <MSBuild Projects="Systems\Display_Computer_Information\GetComputerInformation\ComputerInfo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ComputerInfo:Make">
+        <MSBuild Projects="Systems\Display_Computer_Information\GetComputerInformation\ComputerInfo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GetAttrFunction">
+        <MSBuild Projects="Systems\Get_File_and_Directory_Attributes\GetAttrFunction\GetAttrFunction.dproj"/>
+    </Target>
+    <Target Name="GetAttrFunction:Clean">
+        <MSBuild Projects="Systems\Get_File_and_Directory_Attributes\GetAttrFunction\GetAttrFunction.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GetAttrFunction:Make">
+        <MSBuild Projects="Systems\Get_File_and_Directory_Attributes\GetAttrFunction\GetAttrFunction.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ReadCommDelimetedTextFiles">
+        <MSBuild Projects="Text_Files\Read_Comma_Delimited_Text_Files\ReadCommaDelimetedTextFiles\ReadCommDelimetedTextFiles.dproj"/>
+    </Target>
+    <Target Name="ReadCommDelimetedTextFiles:Clean">
+        <MSBuild Projects="Text_Files\Read_Comma_Delimited_Text_Files\ReadCommaDelimetedTextFiles\ReadCommDelimetedTextFiles.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ReadCommDelimetedTextFiles:Make">
+        <MSBuild Projects="Text_Files\Read_Comma_Delimited_Text_Files\ReadCommaDelimetedTextFiles\ReadCommDelimetedTextFiles.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ReadTextFiles">
+        <MSBuild Projects="Text_Files\Read_from_Text_Files_with_Multiple_Formats\ReadFromTextFileswithMultipleFormats\ReadTextFiles.dproj"/>
+    </Target>
+    <Target Name="ReadTextFiles:Clean">
+        <MSBuild Projects="Text_Files\Read_from_Text_Files_with_Multiple_Formats\ReadFromTextFileswithMultipleFormats\ReadTextFiles.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ReadTextFiles:Make">
+        <MSBuild Projects="Text_Files\Read_from_Text_Files_with_Multiple_Formats\ReadFromTextFileswithMultipleFormats\ReadTextFiles.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ReadFixedWidthTextFiles">
+        <MSBuild Projects="Text_Files\Read_Fixed_Width_Text_Files\ReadFixedWidthTextFiles\ReadFixedWidthTextFiles.dproj"/>
+    </Target>
+    <Target Name="ReadFixedWidthTextFiles:Clean">
+        <MSBuild Projects="Text_Files\Read_Fixed_Width_Text_Files\ReadFixedWidthTextFiles\ReadFixedWidthTextFiles.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ReadFixedWidthTextFiles:Make">
+        <MSBuild Projects="Text_Files\Read_Fixed_Width_Text_Files\ReadFixedWidthTextFiles\ReadFixedWidthTextFiles.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CreateInstanceUsingActivator;CreateInstanceUsingDispActivator;CreateInstanceUsingAppDomain;LoadAssemblyUsingAssemblyClass;LoadAssemblyUsingAssemblyHelper;COMDispInterface;LoadAssemblyUsingAppDomain;AssemblyInformation;ConsoleApp;UsingClrObject;CreateCSharpClassWithCodeDOM;StringBuilder;DateTimeInfo;ArrayList;ArrayExample;BasicExample;GenericList;GenericDictionary;Collections;Configuration;ByteConverter;CultureInfoConverter;DataTable;ResolveAddressSync;DeviceLocation;Diagnostics;DirectoryServices;EventHandling;AdvancedEventHandler;DataGridViewOnVCLForm;HostWPFCtrlProject;WebBrowserProject;StreamWriterReader;ListFilesInDir;ManagementPath;EventWatcherPolling;WebRequestGetExample;WebRequestGetExample2;DeleteFileOnFTPServer;WebClient_Example;DownloadFile;TestGetRequestStream;SendEmail;UploadFile;CheckNetworkConnectionStatus;ReflectionUsingClrObjectClass;ReflectionUsingClrObjectInterface;Reflection;FileEncryptionDecryption;MD5CryptoServiceProvider;HMACMD5_Example;ECDsaCng_Example;GZipStream;RijndaelSecurity;SSRSLocalReport;SendStrings2SerialPorts;RetrieveStringsFromSerialPorts;ComputerInfo;GetAttrFunction;ReadCommDelimetedTextFiles;ReadTextFiles;ReadFixedWidthTextFiles"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CreateInstanceUsingActivator:Clean;CreateInstanceUsingDispActivator:Clean;CreateInstanceUsingAppDomain:Clean;LoadAssemblyUsingAssemblyClass:Clean;LoadAssemblyUsingAssemblyHelper:Clean;COMDispInterface:Clean;LoadAssemblyUsingAppDomain:Clean;AssemblyInformation:Clean;ConsoleApp:Clean;UsingClrObject:Clean;CreateCSharpClassWithCodeDOM:Clean;StringBuilder:Clean;DateTimeInfo:Clean;ArrayList:Clean;ArrayExample:Clean;BasicExample:Clean;GenericList:Clean;GenericDictionary:Clean;Collections:Clean;Configuration:Clean;ByteConverter:Clean;CultureInfoConverter:Clean;DataTable:Clean;ResolveAddressSync:Clean;DeviceLocation:Clean;Diagnostics:Clean;DirectoryServices:Clean;EventHandling:Clean;AdvancedEventHandler:Clean;DataGridViewOnVCLForm:Clean;HostWPFCtrlProject:Clean;WebBrowserProject:Clean;StreamWriterReader:Clean;ListFilesInDir:Clean;ManagementPath:Clean;EventWatcherPolling:Clean;WebRequestGetExample:Clean;WebRequestGetExample2:Clean;DeleteFileOnFTPServer:Clean;WebClient_Example:Clean;DownloadFile:Clean;TestGetRequestStream:Clean;SendEmail:Clean;UploadFile:Clean;CheckNetworkConnectionStatus:Clean;ReflectionUsingClrObjectClass:Clean;ReflectionUsingClrObjectInterface:Clean;Reflection:Clean;FileEncryptionDecryption:Clean;MD5CryptoServiceProvider:Clean;HMACMD5_Example:Clean;ECDsaCng_Example:Clean;GZipStream:Clean;RijndaelSecurity:Clean;SSRSLocalReport:Clean;SendStrings2SerialPorts:Clean;RetrieveStringsFromSerialPorts:Clean;ComputerInfo:Clean;GetAttrFunction:Clean;ReadCommDelimetedTextFiles:Clean;ReadTextFiles:Clean;ReadFixedWidthTextFiles:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CreateInstanceUsingActivator:Make;CreateInstanceUsingDispActivator:Make;CreateInstanceUsingAppDomain:Make;LoadAssemblyUsingAssemblyClass:Make;LoadAssemblyUsingAssemblyHelper:Make;COMDispInterface:Make;LoadAssemblyUsingAppDomain:Make;AssemblyInformation:Make;ConsoleApp:Make;UsingClrObject:Make;CreateCSharpClassWithCodeDOM:Make;StringBuilder:Make;DateTimeInfo:Make;ArrayList:Make;ArrayExample:Make;BasicExample:Make;GenericList:Make;GenericDictionary:Make;Collections:Make;Configuration:Make;ByteConverter:Make;CultureInfoConverter:Make;DataTable:Make;ResolveAddressSync:Make;DeviceLocation:Make;Diagnostics:Make;DirectoryServices:Make;EventHandling:Make;AdvancedEventHandler:Make;DataGridViewOnVCLForm:Make;HostWPFCtrlProject:Make;WebBrowserProject:Make;StreamWriterReader:Make;ListFilesInDir:Make;ManagementPath:Make;EventWatcherPolling:Make;WebRequestGetExample:Make;WebRequestGetExample2:Make;DeleteFileOnFTPServer:Make;WebClient_Example:Make;DownloadFile:Make;TestGetRequestStream:Make;SendEmail:Make;UploadFile:Make;CheckNetworkConnectionStatus:Make;ReflectionUsingClrObjectClass:Make;ReflectionUsingClrObjectInterface:Make;Reflection:Make;FileEncryptionDecryption:Make;MD5CryptoServiceProvider:Make;HMACMD5_Example:Make;ECDsaCng_Example:Make;GZipStream:Make;RijndaelSecurity:Make;SSRSLocalReport:Make;SendStrings2SerialPorts:Make;RetrieveStringsFromSerialPorts:Make;ComputerInfo:Make;GetAttrFunction:Make;ReadCommDelimetedTextFiles:Make;ReadTextFiles:Make;ReadFixedWidthTextFiles:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
