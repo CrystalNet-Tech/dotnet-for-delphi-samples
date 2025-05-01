@@ -40,128 +40,121 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 <br>
 
 > Basic Examples of using .Net types in Delphi
-* <a href="samples/getting-started/">Array</a>
-* <a href="samples/getting-started/">ArrayList</a>
-* <a href="samples/getting-started/">ClrObject Example</a>
-* <a href="samples/getting-started/">Console App</a>
-* <a href="samples/getting-started/">DateTimeInfo</a>
-* <a href="samples/getting-started/">StringBuilder</a>
-* <a href="samples/getting-started/">.Net CodeCOM</a>
-* <a href="samples/getting-started/">Other Examples</a>
+* <a href="samples/getting-started/Basic_Examples/Array">Array</a>
+* <a href="samples/getting-started/Basic_Examples/ArrayList">ArrayList</a>
+* <a href="samples/getting-started/Basic_Examples/ClrObject_Example">ClrObject Example</a>
+* <a href="samples/getting-started/Basic_Examples/Console_App">Console App</a>
+* <a href="samples/getting-started/Basic_Examples/DateTimeInfo">DateTimeInfo</a>
+* <a href="samples/getting-started/Basic_Examples/StringBuilder">StringBuilder</a>
+* <a href="samples/getting-started/Basic_Examples/CodeCOM">.Net CodeCOM</a>
+* <a href="samples/getting-started/Basic_Examples/Other_Examples">Other Examples</a>
 <br>
 
 > How to use .Net Collections in Delphi
-* <a href="samples/getting-started/">Generic Dictionary</a>
-* <a href="samples/getting-started/">Generic List</a>
-* <a href="samples/getting-started/">Other Examples</a>
+* <a href="samples/getting-started/Collections/Generic_Dictionary">Generic Dictionary</a>
+* <a href="samples/getting-started/Collections/Generic_List">Generic List</a>
+* <a href="samples/getting-started/Collections/Other_Examples">Other Examples</a>
 <br>
 
 > How to use .Net Configurations in Delphi
-* <a href="samples/getting-started/">Configuration</a>
+* <a href="samples/getting-started/Configurations">Configuration</a>
 <br>
 
 > How to use .Net Type Converters in Delphi
-* <a href="samples/getting-started/">Byte Converter</a>
-* <a href="samples/getting-started/">CultureInfo Converter</a>
+* <a href="samples/getting-started/Converters/ByteConverter">Byte Converter</a>
+* <a href="samples/getting-started/Converters/CultureInfoConverter">CultureInfo Converter</a>
 <br>
 
 > How to use .Net Data in Delphi
-* <a href="samples/getting-started/">DataTable</a>
-* <a href="samples/getting-started/">DataGridView</a>
+* <a href="samples/getting-started/Data/DataTable">DataTable</a>
+* <a href="samples/getting-started/Host_DotNet_Controls/DataGridView_Control">DataGridView</a>
 <br>
 
 > How to use .Net Device Locations in Delphi
-* <a href="samples/getting-started/">Device Location</a>
-* <a href="samples/getting-started/">Resolve Address Synchronously</a>
+* <a href="samples/getting-started/Devices/DeviceLocation">Device Location</a>
+* <a href="samples/getting-started/Devices/ResolveAddressSync">Resolve Address Synchronously</a>
 <br>
 
 > How to use .Net Diagnostics in Delphi
-* <a href="samples/getting-started/">Diagnostics</a>
+* <a href="samples/getting-started/Diagnostics">Diagnostics</a>
 <br>
 
 > How to use .Net Active Directory Services from Delphi
-* <a href="samples/getting-started/">DirectoryServices</a>
+* <a href="samples/getting-started/Directory_Services">DirectoryServices</a>
 <br>
 
 > How to Handle .Net Events and Delegates in Delphi
-* <a href="samples/getting-started/">Standard Event handling</a>
-* <a href="samples/getting-started/">Advanced Event handling</a>
+* <a href="samples/getting-started/Event_Handler/Standard">Standard Event handling</a>
+* <a href="samples/getting-started/Event_Handler/Advanced">Advanced Event handling</a>
 <br>
 
 > How to use Host .Net Controls in Delphi
-* <a href="samples/getting-started/">.Net DataGridView Control</a>
-* <a href="samples/getting-started/">.Net WPF Control</a>
-* <a href="samples/getting-started/">.Net Web Browser Control</a>
+* <a href="samples/getting-started/Host_DotNet_Controls/DataGridView_Control">.Net DataGridView Control</a>
+* <a href="samples/getting-started/Host_DotNet_Controls/WPF_Control">.Net WPF Control</a>
+* <a href="samples/getting-started/Host_DotNet_Controls/Web_Browser_Control">.Net Web Browser Control</a>
 <br>
 
 > How to use .Net I/O in Delphi
-* <a href="samples/getting-started/">List files in Directory</a>
-* <a href="samples/getting-started/">.Net StreamWriter</a>
-* <a href="samples/getting-started/">.Net StreamReader</a>
+* <a href="samples/getting-started/IO/ListFilesInDirectory">List files in Directory</a>
+* <a href="samples/getting-started/IO/StreamWriter">.Net StreamWriter</a>
+* <a href="samples/getting-started/IO/StreamReader">.Net StreamReader</a>
 <br>
 
 > How to use .Net Management in Delphi
-* <a href="samples/getting-started/">Event Watcher Polling</a>
-* <a href="samples/getting-started/">Using Management Path</a>
-<br>
-   
-> Using .Net Reflections in Delphi
-* <a href="samples/getting-started/">Basic .Net Reflections</a>
-* <a href="samples/getting-started/">Using ClrObject Class</a>
-* <a href="samples/getting-started/">Using ClrObject Interface</a>
-<br>
-   
-> How to use .Net Security in Delphi
-* <a href="samples/getting-started/">Encrypt/Decrypt Data with Rijndael Managed</a>
-* <a href="samples/getting-started/">Sign a message with ECDsaCng</a>
-* <a href="samples/getting-started/">Computes HMAC with MD5 Hash Function</a>
-* <a href="samples/getting-started/">Compute String MD5 Hash Value</a>
-* <a href="samples/getting-started/">File Encryption and Decryption</a>
-* <a href="samples/getting-started/">Compress/Decompress with .Net GZipStream</a>
+* <a href="samples/getting-started/Management/EventWatcherPolling">Event Watcher Polling</a>
+* <a href="samples/getting-started/Management/ManagementPath">Using Management Path</a>
 <br>
    
 > How to use .Net Networking in Delphi
-* <a href="samples/getting-started/">Upload File to network</a>
-* <a href="samples/getting-started/">Download File from Network</a>
-* <a href="samples/getting-started/">Send E-mail Message</a>
-* <a href="samples/getting-started/">Access resource with .Net FileWebRequest</a>
-* <a href="samples/getting-started/">Send/Receive data with WebClient</a>
-* <a href="samples/getting-started/">Create .Net WebRequest</a>
-* <a href="samples/getting-started/">Check Network Connection Status</a>
-* <a href="samples/getting-started/">Delete FTP Server file</a>
+* <a href="samples/getting-started/Networking/Upload_File_to_a_Network">Upload File to network</a>
+* <a href="samples/getting-started/Networking/Download_File_from_Network">Download File from Network</a>
+* <a href="samples/getting-started/Networking/Send_Email_Message">Send E-mail Message</a>
+* <a href="samples/getting-started/Networking/Access_Resource_with_FileWebRequest">Access resource with .Net FileWebRequest</a>
+* <a href="samples/getting-started/Networking/Send_Receive_Data_with_WebClient">Send/Receive data with WebClient</a>
+* <a href="samples/getting-started/Networking/Create_DotNet_WebRequest">Create .Net WebRequest</a>
+* <a href="samples/getting-started/Networking/Check_Network_Connection_Status">Check Network Connection Status</a>
+* <a href="samples/getting-started/Networking/Delete_FTP_Server_File">Delete FTP Server file</a>
+<br>
+   
+> Using .Net Reflections in Delphi
+* <a href="samples/getting-started/Reflections/Basic_Reflections">Basic .Net Reflections</a>
+* <a href="samples/getting-started/Reflections/Using_ClrObject_Class">Using ClrObject Class</a>
+* <a href="samples/getting-started/Reflections/Using_ClrObject_Interface">Using ClrObject Interface</a>
+<br>
+   
+> How to use .Net Security in Delphi
+* <a href="samples/getting-started/Security/Encrypt_Decrypt_Data_with_RijndaelManaged">Encrypt/Decrypt Data with Rijndael Managed</a>
+* <a href="samples/getting-started/Security/Sign_Message_With_ECDsaCng">Sign a message with ECDsaCng</a>
+* <a href="samples/getting-started/Security/Computes_HMAC_with_MD5_Hash_Function">Computes HMAC with MD5 Hash Function</a>
+* <a href="samples/getting-started/Security/Compute_String_MD5_Hash_Value">Compute String MD5 Hash Value</a>
+* <a href="samples/getting-started/Security/File_Encryption_and_Decryption">File Encryption and Decryption</a>
+* <a href="samples/getting-started/Security/Compress_Decompress_with_DotNet_GZipStream">Compress/Decompress with .Net GZipStream</a>
 <br>
    
 > How to use .Net SSRS Reports in Delphi
-* <a href="samples/getting-started/">Run SSRS Reports Locally</a>
+* <a href="samples/getting-started/SSRSLocalReport">Run SSRS Reports Locally</a>
 <br>
    
 > How to Access System Info in Delphi
-* <a href="samples/getting-started/">Get file and directory attributes</a>
-* <a href="samples/getting-started/">Consume system events</a>
-* <a href="samples/getting-started/">Display Computer information</a>
-* <a href="samples/getting-started/">Send Data to Serial Ports</a>
-* <a href="samples/getting-started/">Receive Data From Serial Ports</a>
+* <a href="samples/getting-started/Systems/Get_File_and_Directory_Attributes">Get file and directory attributes</a>
+* <a href="samples/getting-started/Management/EventWatcherPolling">Consume system events</a>
+* <a href="samples/getting-started/Systems/Display_Computer_Information">Display Computer information</a>
+* <a href="samples/getting-started/Systems/Send_Data_to_Serial_Ports">Send Data to Serial Ports</a>
+* <a href="samples/getting-started/Systems/Receive_Data_From_Serial_Ports">Receive Data From Serial Ports</a>
 <br>
    
 > How to Access Text Files in Delphi
-* <a href="samples/getting-started/">Read Comma-Delimited Text Files</a>
-* <a href="samples/getting-started/">Read Fixed-width Text Files</a>
-* <a href="samples/getting-started/">Read from Text Files with Multiple Formats</a>
-* <a href="samples/getting-started/">Read/Add/Update Application Settings</a>
+* <a href="samples/getting-started/Text_Files/Read_Comma_Delimited_Text_Files">Read Comma-Delimited Text Files</a>
+* <a href="samples/getting-started/Text_Files/Read_Fixed_Width_Text_Files">Read Fixed-width Text Files</a>
+* <a href="samples/getting-started/Text_Files/Read_from_Text_Files_with_Multiple_Formats">Read from Text Files with Multiple Formats</a>
+* <a href="samples/getting-started/Configurations">Read/Add/Update Application Settings</a>
 <br>
    
 > How to Access XML Files in Delphi
-* <a href="samples/getting-started/">Compare two XML element names</a>
+* <a href="samples/getting-started/XMLCompare">Compare two XML element names</a>
 
-
-
-<br>
-<br>
-
-# .Net DLL/WSDL Importer for Delphi
-The [.Net DLL/WSDL Importer for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibUtilities) is used for importing .Net Assemblies such as dll or exe files, WSDL or web service XML schema and for generating Delphi classes from the .Net types of the imported assemblies. <br>
-
-<img src="images/DotNetImporterAnimation.gif" alt="dotNetImporter" style="display: block; margin: auto; width: 50;" />
+> Import 3rd Party .Net DLL into Delphi
+*  [.Net Importer for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibUtilities) - Import .Net Assemblies/ WSDL into Delphi
 
 
 <br>
