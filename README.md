@@ -46,6 +46,7 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 * <a href="samples/getting-started/">Console App</a>
 * <a href="samples/getting-started/">DateTimeInfo</a>
 * <a href="samples/getting-started/">StringBuilder</a>
+* <a href="samples/getting-started/">.Net CodeCOM</a>
 * <a href="samples/getting-started/">.Net Tracing</a>
 * <a href="samples/getting-started/">Other Examples</a>
 <br>
