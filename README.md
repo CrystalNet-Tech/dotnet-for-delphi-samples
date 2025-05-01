@@ -32,11 +32,11 @@ In this GitHub repo, we provide samples which will help Delphi developers integr
 The .Net Runtime Library for Delphi samples are listed below:<br><br>
 
 > How to Load .Net Application Domains and Assemblies in Delphi
-* <a href="samples/getting-started/">Load .Net Assemblies</a>
-* <a href="samples/getting-started/">Create .Net Instance</a>
-* <a href="samples/getting-started/">Use COM DispInterface</a>
-* <a href="samples/getting-started/">Obtain .Net Assembly Type and Members</a>
-* <a href="samples/getting-started/">Load external .Net DLL</a>
+* <a href="samples/getting-started/Application_Domains_And_Assemblies/Load_DotNet_Assemblies">Load .Net Assemblies</a>
+* <a href="samples/getting-started/Application_Domains_And_Assemblies/Create_DotNet_Object_Instance">Create .Net Instance</a>
+* <a href="samples/getting-started/Application_Domains_And_Assemblies/COM_DispInterface">Use COM DispInterface</a>
+* <a href="samples/getting-started/Application_Domains_And_Assemblies/Obtain_DotNet_Assembly_Types_And_Members">Obtain .Net Assembly Type and Members</a>
+* <a href="samples/getting-started/Application_Domains_And_Assemblies/COM_DispInterface">Load external .Net DLL</a>
 <br>
 
 > Basic Examples of using .Net types in Delphi
