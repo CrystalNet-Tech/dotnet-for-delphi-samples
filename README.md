@@ -112,23 +112,20 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 <br>
    
 > How to use .Net Security in Delphi
-* <a href="samples/getting-started/">Rijndael Security</a>
-* <a href="samples/getting-started/">Rijndael Managed</a>
-* <a href="samples/getting-started/">ECDsaCng</a>
-* <a href="samples/getting-started/">MD5 hash function for HMAC</a>
-* <a href="samples/getting-started/">Compute MD5 hash value</a>
+* <a href="samples/getting-started/">Encrypt/Decrypt Data with Rijndael Managed</a>
+* <a href="samples/getting-started/">Sign a message with ECDsaCng</a>
+* <a href="samples/getting-started/">Computes HMAC with MD5 Hash Function</a>
+* <a href="samples/getting-started/">Compute String MD5 Hash Value</a>
 * <a href="samples/getting-started/">File Encryption and Decryption</a>
-* <a href="samples/getting-started/">Encrypt and Decrypt Data</a>
-* <a href="samples/getting-started/">Encrypt/Decrypt with .Net CreateEncryptor</a>
 * <a href="samples/getting-started/">Compress/Decompress with .Net GZipStream</a>
 <br>
    
 > How to use .Net Networking in Delphi
-* <a href="samples/getting-started/">Upload File</a>
-* <a href="samples/getting-started/">Download File</a>
+* <a href="samples/getting-started/">Upload File to network</a>
+* <a href="samples/getting-started/">Download File from Network</a>
 * <a href="samples/getting-started/">Send E-mail Message</a>
 * <a href="samples/getting-started/">Access resource with .Net FileWebRequest</a>
-* <a href="samples/getting-started/">Send/Receive data by URI</a>
+* <a href="samples/getting-started/">Send/Receive data with WebClient</a>
 * <a href="samples/getting-started/">Create .Net WebRequest</a>
 * <a href="samples/getting-started/">Check Network Connection Status</a>
 * <a href="samples/getting-started/">Delete FTP Server file</a>
@@ -149,7 +146,7 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 > How to Access Text Files in Delphi
 * <a href="samples/getting-started/">Read Comma-Delimited Text Files</a>
 * <a href="samples/getting-started/">Read Fixed-width Text Files</a>
-* <a href="samples/getting-started/">Read From Text Files</a>
+* <a href="samples/getting-started/">Read from Text Files with Multiple Formats</a>
 * <a href="samples/getting-started/">Read/Add/Update Application Settings</a>
 <br>
    
