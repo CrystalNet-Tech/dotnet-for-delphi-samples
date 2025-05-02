@@ -1,4 +1,4 @@
-### Load external .Net DLL and access the members of loaded assembly types from Delphi
+## Load external .Net DLL and access the members of loaded assembly types from Delphi
 
 This sample demonstrates how to load an external dll (_Mathematics.dll_) and access the methods on the loaded assembly types through dispatch interface. 
 
