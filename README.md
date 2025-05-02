@@ -37,7 +37,7 @@ The .Net Runtime Library for Delphi samples are listed below:<br><br>
 * <a href="samples/getting-started/Application_Domains_And_Assemblies/COM_DispInterface">Use COM DispInterface</a>
 * <a href="samples/getting-started/Application_Domains_And_Assemblies/Obtain_DotNet_Assembly_Types_And_Members">Obtain .Net Assembly Type and Members</a>
 * <a href="samples/getting-started/Application_Domains_And_Assemblies/COM_DispInterface">Load external .Net DLL using Dispatch Interface</a>
-* <a href="samples/getting-started/Application_Domains_And_Assemblies/Load_External_DLL_With_ImportUtility">Import external .Net DLL using Import utility</a>
+* <a href="samples/getting-started/Application_Domains_And_Assemblies/Import_External_DLL_with_ImportUtility">Import external .Net DLL using Import utility</a>
 <br>
 
 > Basic Examples of using .Net types in Delphi
