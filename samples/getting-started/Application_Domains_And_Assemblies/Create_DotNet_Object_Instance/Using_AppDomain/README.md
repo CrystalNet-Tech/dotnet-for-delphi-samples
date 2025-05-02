@@ -20,12 +20,15 @@ The following methods can be used to create instances of .Net Objects through re
 * **TClrAssembly.CreateInstance:** This method locates a type from the assembly loaded and create an instance of it using the system activator. 
 
 ### Using Common Object Runtime Object (ClrObject) to create and wrap .Net Object
-This is a wrapper interface which provides low-level services to all interfaces defined in the Delphi Framework Library and .net objects. The ClrObject interface has methods and properties which allows you to interact with the properties, fields, events and methods of the object to which the interface is wrapped. The process of retrieving the members of the internal object is smooth and fast. For more information see How to Use ClrObject Interface. There are 2 ways to create instances of .Net Objects using the ClrObject. These are:
+This is a wrapper interface which provides low-level services to all interfaces defined in the Delphi Framework Library and .net objects. The ClrObject interface has methods and properties which allows you to interact with the properties, fields, events and methods of the object to which the interface is wrapped. The process of retrieving the members of the internal object is smooth and fast. For more information see How to Use ClrObject Interface. There are 2 ways to create instances of .Net Objects using the ClrObject. <br>
+These are:
 * Inherit from TClrBaseObject Class and create your own methods and properties for the class. 
 * Use the ClrObject Interface to create wrapper instance of the original object to allow easy access and interactions to the objects members (Fields, Properties, Members, and Events etc.). 
 
 ### Using Constructor CoClasses
-There are several classes defined in the Runtime library for creating instances of the .net framework types. These classes are called CoClasses. For example, to create an instance of System.IO.FileStream(string path, FileMode mode) using .Net Runtime Library for Delphi, use the equivalent interface of System.IO.FileStream which is _FileStream defined in CNClrLib.Core to create an instance of the _FileStream using the FileStream coClass called coFileStream class. The class has static methods called CreateInstance and each method represent the constructors defined for the System.io.FileStream.
+There are several classes defined in the Runtime library for creating instances of the .net framework types. These classes are called **CoClasses**. <br>
+For example, to create an instance of _System.IO.FileStream(string path, FileMode mode)_ using [.Net Runtime Library for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibrary4Delphi), use the equivalent interface of System.IO.FileStream which is __FileStream_ defined in **CNClrLib.Core** to create an instance of the __FileStream_ using the FileStream coClass called **coFileStream** class. <br>
+The class has static methods called CreateInstance and each method represent the constructors defined for the System.io.FileStream.
 
 <br>
 <br>
