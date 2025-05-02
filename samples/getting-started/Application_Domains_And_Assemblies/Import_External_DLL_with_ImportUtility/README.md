@@ -19,7 +19,7 @@ The import utility generates the following units:
 
 The _Matheatics.dll_ library C# Source codes:
 
-```
+```csharp
 namespace Mathematics
 {
     public class Mathematics
@@ -35,27 +35,27 @@ namespace Mathematics
 <br>
 
 The importer create a corresponding Delphi interface and class type of Mathematics type in the _Mathematics.dll_
-```
+```pascal
 type
-	[TypeMapping(sD_TMathematics, sC_Mat_Mathematics)]
-	IMathematics = interface(IClrBase)
-	['{A7FEDBBA-A0EB-44F5-9375-EA27C85EAF5C}']
-	  { public }
-	  function Add(a: Integer; b: Integer): Integer;
-    	  ...
+  [TypeMapping(sD_TMathematics, sC_Mat_Mathematics)]
+  IMathematics = interface(IClrBase)
+  ['{A7FEDBBA-A0EB-44F5-9375-EA27C85EAF5C}']
+    { public }
+    function Add(a: Integer; b: Integer): Integer;
+    ...
   end;
 ```
 <br>
 
 The import utility registers the 3rd party (_Mathematics.dll_) assembly and the assembly is loaded automatically at runtime.
-```
+```pascal
 initialization
   TClrAssembly.RegisterDLLAssembly(sC_Mathematics_Asm_ID, sC_Mathematics_sC_AssemblyPath, ltfileLocation, False);
 ```
 <br>
 
 To create an instance of the Mathematic Type, call the CreateInstance method on the TClrDispatchActivator class
-```
+```pascal
 var
   Mathematics : IMathematics;
 ...
@@ -65,7 +65,7 @@ Mathematics := TMathematics.Create;
 <br>
 
 Once the Mathematics object has been ceated, you can now call the methods on the object.
-```
+```pascal
 Mathematics.Add(30, 50);
 ```
 
