@@ -38,7 +38,6 @@ To create an instance of the Mathematic Type, call the CreateInstance method on 
 ```
 var
   Mathematics : _Mathematics;
-...
 
 Mathematics := _Mathematics(TClrDispatchActivator.CreateInstance('Mathematics.Mathematics'));
 ```
