@@ -25,6 +25,7 @@ type
   _Mathematics = dispinterface
   ['{D77959BD-C7AC-4D65-9980-A88510F776B8}']
     function Add(a, b : Integer) : Integer; dispid 0;
+    ...
   end;
 ```
 
