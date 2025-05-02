@@ -40,9 +40,9 @@ type
 	[TypeMapping(sD_TMathematics, sC_Mat_Mathematics)]
 	IMathematics = interface(IClrBase)
 	['{A7FEDBBA-A0EB-44F5-9375-EA27C85EAF5C}']
-		{ public }
-		function Add(a: Integer; b: Integer): Integer;
-    ...
+	  { public }
+	  function Add(a: Integer; b: Integer): Integer;
+    	  ...
   end;
 ```
 <br>
@@ -50,7 +50,7 @@ type
 The import utility registers the 3rd party (_Mathematics.dll_) assembly and the assembly is loaded automatically at runtime.
 ```
 initialization
-	TClrAssembly.RegisterDLLAssembly(sC_Mathematics_Asm_ID, sC_Mathematics_sC_AssemblyPath, ltfileLocation, False);
+  TClrAssembly.RegisterDLLAssembly(sC_Mathematics_Asm_ID, sC_Mathematics_sC_AssemblyPath, ltfileLocation, False);
 ```
 <br>
 
