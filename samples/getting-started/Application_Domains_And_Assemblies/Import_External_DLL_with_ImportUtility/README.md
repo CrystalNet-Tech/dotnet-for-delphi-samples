@@ -4,9 +4,9 @@ This sample demonstrates how to load an external dll (_Mathematics.dll_) using t
 
 ### The .Net DLL Importer for Delphi below demonstrates how to import _Mathematics.dll_ and generate delphi classes
 
-<img src="../../../../../images/ImportMathematicsDLLAnimation.gif" alt="dotNetDLLImporter4Delphi">
-![Import Mathematics.dll with Import Utility!](../../../../../../../../../../images/ImportMathematicsDLLAnimation.gif)
-![Import Mathematics.dll with Import Utility](../../../../../../../../../../images/ImportMathematicsDLLAnimation.gif)
+<img src="/images/ImportMathematicsDLLAnimation.gif" alt="dotNetDLLImporter4Delphi">
+![Import Mathematics.dll with Import Utility!](/images/ImportMathematicsDLLAnimation.gif)
+![Import Mathematics.dll with Import Utility](/images/ImportMathematicsDLLAnimation.gif)
 ![Build -> Train -> Evaluate -> Consume](../shared_content/modelpipeline.png)
 
 The .Net library C# Source code class members are decorated with DispIdAttribute which specifies the COM dispatch identifier (DISPID) of the method, field, or property.
