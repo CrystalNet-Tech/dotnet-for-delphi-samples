@@ -1,4 +1,4 @@
-# How to create a WebRequest instance and return the response.
+### How to create a WebRequest instance and return the response.
 
 The sample shows how to create a [WebRequest](https://docs.microsoft.com/en-gb/dotnet/api/system.net.webrequest?view=netframework-4.7.2) instance and return the response.
 
