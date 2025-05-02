@@ -1,4 +1,3 @@
-# Handle and raise .Net events in Delphi (Advanced)
-This demo shows how to raise .Net events and handle these events from Delphi using the .Net Runtime Library for Delphi.
+### Handle and raise .Net events in Delphi (Advanced)
 
-This demo shows how to raise .Net events and handle these events from Delphi using the .Net Runtime Library for Delphi. The demo shows you how to declare an event named OnStateChangeEvent. The event is associated with the TClrEventHandler delegate and raised in a stdcall method named StateChangeEventHandler.
+This sample shows how to raise .Net events and handle these events from Delphi using the [.Net Runtime Library for Delphi](https://crystalnet-tech.com/RuntimeLibrary/RuntimeLibrary4Delphi.aspx). The sample shows how to declare an event _OnStateChangeEvent_. The event is associated with the **TClrEventHandler** delegate and raised in a _stdcall_ event handler method named **StateChangeEventHandler**.
