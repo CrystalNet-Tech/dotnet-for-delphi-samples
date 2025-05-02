@@ -1,8 +1,12 @@
+### How to Run SSRS Reports Locally
+
+This sample demonstrates how to generate a report that was created in rdl format, from a Delphi application without using SSRS server.
+
 A typical corporate setup would have a running Delphi application and SSRS reports running out of a separate Report server (or an Application server or from the Database server itself). In such scenarios, developers make use of Visual Studio Business Intelligence shell to create SSRS reports in .rdl format and deploy them to the SSRS Report server. Such SSRS reports are accessed from the Delphi application through Report Viewer using the .Net Runtime Library for Delphi.
 
 Code for such a typical scenario. Assuming you have a rdl report called AdHocExistingRegReport.rdl in the same location as the Delphi executable file.
 
-```
+```pascal
 procedure TForm1.GenerateLocalReport;
 var
   repParameters: IList;  
@@ -42,7 +46,8 @@ begin
 end;
 ```
 
-In the above code, "DataSet_MyStoredProc" is the dataset in my report. The below statement will populate the "DataSet_MyStoredProc" dataset with the data from DataTable dt.
-```
+
+In the above code, _"DataSet_MyStoredProc"_ is the dataset in my report. The below statement will populate the _"DataSet_MyStoredProc"_ dataset with the data from DataTable dt.
+```pascal
   rds := TReportDataSource.Create('DataSet_MyStoredProc', dt);
 ```
